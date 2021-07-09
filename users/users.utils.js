@@ -1,4 +1,3 @@
-import { attachConnectorsToContext } from "apollo-server";
 import jwt from "jsonwebtoken";
 import client from "../client";
 
