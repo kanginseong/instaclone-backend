@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kanginseong/instaclone-backend#readme",
   "dependencies": {
-    "@prisma/client": "^2.26.0",
+    "@prisma/client": "^2.27.0",
     "apollo-server": "^2.25.2",
     "apollo-server-express": "^2.25.2",
     "bcrypt": "^5.0.1",
@@ -36,7 +36,7 @@
     "@babel/node": "^7.14.7",
     "@babel/preset-env": "^7.14.7",
     "nodemon": "^2.0.9",
-    "prisma": "^2.26.0"
+    "prisma": "^2.27.0"
   },
   "resolutions": {
     "fs-capacitor": "^6.2.0",
