@@ -37,8 +37,17 @@ Instaclone Backend.
 
 ## Refactor
 
-- [] Mutation Responses
+- [x] Mutation Responses
 
 ## Extras
 
-- [] S3 Image Upload
+- [x] S3 Image Upload
+
+## DMs
+
+- [x] See Rooms
+- [x] Send Message (Create Room)
+- [x] See Room
+- [x] Computed Fields
+- [x] See (Read) Message
+- [] Realtime Messages
