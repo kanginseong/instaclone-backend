@@ -1,4 +1,3 @@
-import { createWriteStream } from "fs";
 import bcrypt from "bcrypt";
 import client from "../../client";
 import { protectResolver } from "../users.utils";
