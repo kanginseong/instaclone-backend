@@ -15,22 +15,18 @@ export default {
           error: "Photo not found",
         };
       }
-      const like = await client.like.findUnique({
-        where: {
-          photoId_userId: {
-            userId: loggedInUser.id,
-            photoId: id,
-          },
+      const likeWhere = {
+        photoId_userId: {
+          userId: loggedInUser.id,
+          photoId: id,
         },
+      };
+      const like = await client.like.findUnique({
+        where: likeWhere,
       });
       if (like) {
         await client.like.delete({
-          where: {
-            photoId_userId: {
-              userId: loggedInUser.id,
-              photoId: id,
-            },
-          },
+          where: likeWhere,
         });
       } else {
         await client.like.create({
